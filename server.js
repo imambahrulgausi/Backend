@@ -1,7 +1,7 @@
 const express = require ('express'); 
-const routerMhs = require('./routes/mahasiswa')
+const routerMhs = require('./routers/mahasiswa');
 const app = express();
-const port = 5000;
+const port = 8080;
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}))
